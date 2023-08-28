@@ -1,0 +1,53 @@
+/****** COLORS *****/
+
+$softBLue:hsl(215, 51%, 70%) ;
+$cyan: hsl(178, 100%, 50%);
+
+$mainBG: hsl(217, 54%, 11%);
+$cardBG: hsl(216, 50%, 16%);
+$line:  hsl(215, 32%, 27%);
+$white1: hsl(0, 0%, 100%);
+
+/****** FONTS *******/
+
+@font-face {
+    font-family: "Outfit";
+    src: url(../fonts/Outfit-VariableFont_wght.ttf);
+}
+
+/********* GENERAL PARAMETER *********/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background: $mainBG;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: $white1;
+    position: relative;
+    font-family: Outfit, sans-serif;
+
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight:500 ;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.74);
+}
